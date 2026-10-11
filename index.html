@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Nuestra Boda - Diana y Brian</title>
+    <meta property="og:title" content="Boda de Diana y Brian - 11 de Diciembre, 2026" />
+<meta property="og:description" content="¡Te invitamos a celebrar nuestra boda! Entra para ver los detalles, itinerario y ubicaciones asi como nuestra galería de fotos." />
+<meta property="og:image" content="https://df6435055-svg.github.io/Nuestraboda.github.oi/nuestra_boda/foto4.jpg" />
+<meta property="og:url" content="https://df6435055-svg.github.io/Nuestraboda.github.oi/" />
+<meta property="og:type" content="website" />
+    <link rel="stylesheet" href="style.css">
+    <!-- Fuentes elegantes (puedes cambiarlas en Google Fonts) -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>  
+<div class="invitation-container">
+                
+    <!-- Música de fondo (opcional) -->
+    <audio id="bg-music" loop>
+        <source src="nuestra_boda/eso_y_mas.mp3" type="audio/mpeg">
+    </audio>
+    
+  
+        <!-- Portada principal -->
+        <header class="hero-section">
+            <div id="music-control" class="music-box-btn" onclick="toggleMusic()">⏯️</div>
+             <span id="music-icon">⏯️</span>
+            <div class="hero-image" style="background-image: url('nuestra_boda/foto7.jpeg');"></div>
+            <div class="hero-text">
+                <h1>Diana y Brian</h1>
+                <p class="date-main">11 . DIC . 2026</p>
+                <h2 class="event-title">Nuestra Boda</h2>
+            </div>
+        </header>
+
+        <!-- Cuenta Regresiva -->
+        <section class="countdown-section">
+            <h3>¡Faltan pocos días!</h3>
+            <div id="countdown">
+                <div class="time-box"><span id="days">00</span><p>Días</p></div>
+                <div class="time-box"><span id="hours">00</span><p>Horas</p></div>
+                <div class="time-box"><span id="minutes">00</span><p>Min</p></div>
+                <div class="time-box"><span id="seconds">00</span><p>Seg</p></div>
+            </div>
+        </section>
+
+        <!-- Ubicaciones e Información -->
+        <section class="details-section">
+    <div class="card">
+        <img src="nuestra_boda/catedral_de_zacatecas.jpeg" alt="Catedral de Zacatecas">
+        <h3>Ceremonia Religiosa</h3>
+        <p><strong>1:00 PM</strong></p>
+        <p>Catedral Basilica de Zacatecas</p>
+        <p>Zacatecas</p>
+        <a href="https://maps.app.goo.gl/hAAKChztbQxMdxwm7" target="_blank" class="btn">Cómo llegar</a>
+    </div>
+
+    <div class="card">
+        <h3>Recepción</h3>
+        <p><strong>4:30 PM</strong></p>
+        <p>Salon de Eventos "El Corral"</p>
+        <a href="https://maps.app.goo.gl/Lh9YNoLovZjyY1SRA" target="_blank" class="btn">Cómo llegar</a>
+    </div>
+</section>
+        <!-- III - ITINERARIO -->
+        <section class="itinerary-section">
+            <h2 class="section-title">Itinerario</h2>
+            
+            <div class="itinerary-grid">
+                <div class="itinerary-item">
+                    <div class="itinerary-content">
+                        <h3>Ceremonia Religiosa</h3>
+                        <span class="time">1:00 PM</span>
+                        <p>Catedral Basílica de Zacatecas</p>
+                        <a href="https://maps.app.goo.gl/hAAKChztbQxMdxwm7" target="_blank" class="btn-mini">Ver Mapa</a>
+                    </div>
+                </div>
+
+                <div class="itinerary-item">
+                    <div class="itinerary-content">
+                        <h3>Recepción</h3>
+                        <span class="time">4:30 PM</span>
+                        <p>Salón de Eventos "El Corral"</p>
+                        <a href="https://maps.app.goo.gl/Lh9YNoLovZjyY1SRA" target="_blank" class="btn-mini">Ver Mapa</a>
+                    </div>
+                </div>
+                  <div class="itinerary-item">
+                    <div class="itinerary-content">
+                        <h3>Comida</h3>
+                        <span class="time">5:00- 7:00 PM</span>
+                    </div>
+                </div>
+
+                <div class="itinerary-item">
+                    <div class="itinerary-content">
+                        <h3> Vals y Protocolo</h3>
+                           <p>Momento mágico de los novios</p>
+                        <span class="time">8:00- 9:00 PM</span>
+                       
+                    </div>
+                </div>
+
+                <div class="itinerary-item">
+                    <div class="itinerary-content">
+                        <h3>Baile y Fiesta</h3>
+                        <p>Apertura de la pista</p>
+                       <span class="time">9:00 PM</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- V - CÓDIGO DE VESTIMENTA -->
+        <section class="details-section">
+            <div class="card dresscode-card">
+                <h2 class="card-title-gold">Código de Vestimenta</h2>
+                <div class="dress-icons">
+                    <!-- Puedes colocar aquí tus imágenes o iconos vectoriales -->
+                    <span class="icon-dress"></span>
+                    <span class="icon-suit"></span>
+                </div>
+            <p>Para la ceremonia y recepción </p>
+            <p>Por favor, eviten el color blanco en la vestimenta, ya que es un color reservado para la novia.</p>
+                <p>Agradecemos su comprensión y cooperación en este momento tan especial.</p>
+            </div>
+        </section>
+         <!-- Galería / Álbum de Fotos -->
+        <section class="gallery-section">
+            <h3>Galería de Fotos</h3>
+            <p class="gallery-subtitle">Toca una foto para verla en tamaño completo</p> 
+            <div class="photo-grid">
+
+                <!-- Foto 1 -->
+                <div class="photo-item" onclick="openLightbox(0)">
+                     <img src="nuestra_boda/foto1.jpeg" alt="Momento 1">
+                </div>
+                <!-- Foto 2 -->
+                <div class="photo-item" onclick="openLightbox(1)">
+                     <img src="nuestra_boda/foto4.jpeg" alt="Momento 2">
+                </div>
+                <!-- Foto 3 -->
+                <div class="photo-item" onclick="openLightbox(2)">
+                    <img src="nuestra_boda/foto6.jpeg" alt="Momento 3">
+                </div>
+                <!-- Foto 4 -->
+                <div class="photo-item" onclick="openLightbox(3)">
+                    <img src="nuestra_boda/foto9.jpeg" alt="Momento 4">
+                </div>
+                <!-- Foto 5 -->
+                <div class="photo-item" onclick="openLightbox(4)">
+                    <img src="nuestra_boda/foto11.jpeg" alt="Momento 5">
+                </div>
+                <!-- Foto 6 -->
+                <div class="photo-item" onclick="openLightbox(5)">
+                    <img src="nuestra_boda/foto12.jpeg " alt="Momento 6">          
+                </div> 
+                <!-- Foto 7 -->
+                <div class="photo-item" onclick="openLightbox(6)">
+                    <img src="nuestra_boda/foto2.jpeg" alt="Momento 7">  
+            </div>
+            <!-- Foto 8 -->
+                <div class="photo-item" onclick="openLightbox(7)">
+
+                    <img src="nuestra_boda/foto3.jpeg" alt="Momento 8">
+                </div>
+                <!-- Foto 9 -->
+                <div class="photo-item" onclick="openLightbox(8)">
+                    <img src="nuestra_boda/foto5.jpeg" alt="Momento 9">
+                </div>
+                <!-- Foto 10 -->
+                 <div class="photo-item" onclick="openLightbox(9)">
+                    <img src="nuestra_boda/foto8.jpeg" alt="Momento 10">  
+            </div>
+        </section>
+  </div>
+    
+   
+    <!-- Contenedor flotante para ver la foto grande -->
+<div id="lightbox" class="lightbox" style="display: none;">
+    <button class="close-btn" onclick="closeLightBox()">&times;</button>
+    <button class="prev-btn" onclick="changeImage(-1)">&#10094;</button>
+    <img id="lightbox-img" src="" alt="Foto Ampliada">
+    <button class="next-btn" onclick="changeImage(1)">&#10095;</button>
+</div>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
